@@ -1,0 +1,48 @@
+/* estilos.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 15px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 25%;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.temas-lista {
+  list-style: none;
+  padding: 0;
+}
+
+.temas-lista li {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.main-content {
+  width: 75%;
+  padding: 20px;
+}
+
+.pregunta-rectangulo {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Añade estilos adicionales según sea necesario */

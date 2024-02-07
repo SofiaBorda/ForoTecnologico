@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foro</title>
+</head>
+<body>
+    <div id="cursos-container">
+        <h2>Cursos</h2>
+        <ul id="cursos-list"></ul>
+    </div>
+
+    <div id="topicos-container">
+        <h2>Topicos</h2>
+        <ul id="topicos-list"></ul>
+    </div>
+
+    <div id="respuestas-container">
+        <h2>Respuestas</h2>
+        <ul id="respuestas-list"></ul>
+    </div>
+
+    <div id="crear-topico">
+        <h2>Crear Tópico</h2>
+        <input type="text" id="titulo-input" placeholder="Título">
+        <textarea id="mensaje-input" placeholder="Mensaje"></textarea>
+        <button onclick="crearTopico()">Crear Tópico</button>
+    </div>
+
+    <div id="crear-respuesta">
+        <h2>Crear Respuesta</h2>
+        <textarea id="respuesta-mensaje-input" placeholder="Respuesta"></textarea>
+        <button onclick="crearRespuesta()">Responder</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
